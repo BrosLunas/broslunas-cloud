@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/download",
+  "version": "1.0.0",
+  "title": "Insert Download Links",
+  "category": "igd-category",
+  "icon": "download",
+  "description": "Insert links to download Google Drive files.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "download",
+        "folders": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": 1000,
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "auto",
+        "view": "grid",
+        "maxFileSize": "",
+        "uploaderStyle": "simple",
+        "openNewTab": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "download links",
+    "link",
+    "download",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

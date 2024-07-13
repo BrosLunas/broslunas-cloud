@@ -1,0 +1,6673 @@
+# Copyright (C) 2024 SoftLab
+# This file is distributed under the same license as the Integrate Google Drive plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Integrate Google Drive 1.3.94\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/integrate-google-drive\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-04-26T15:50:40+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: integrate-google-drive\n"
+
+#. Plugin Name of the plugin
+#: includes/blocks/class-blocks.php:93
+#: includes/class-admin.php:187
+#: includes/elementor/class-elementor.php:559
+#: includes/integrations/class-acf.php:15
+#: includes/views/getting-started/index.php:13
+msgid "Integrate Google Drive"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://softlabbd.com/integrate-google-drive"
+msgstr ""
+
+#. Description of the plugin
+msgid "Seamless Google Drive integration for WordPress, allowing you to embed, share, play, and download documents and media files directly from Google Drive to your WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "SoftLab"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://softlabbd.com/"
+msgstr ""
+
+#: app/class-app.php:129
+msgid "Server error"
+msgstr ""
+
+#: app/class-app.php:129
+msgid "Couldn't connect to the Google drive API server."
+msgstr ""
+
+#: app/class-client.php:165
+msgid "Error communicating with API:"
+msgstr ""
+
+#: app/class-download.php:27
+msgid "Something went wrong! File may be deleted or moved to trash."
+msgstr ""
+
+#: app/class-private-folders.php:192
+msgctxt "No user roles"
+msgid "None"
+msgstr ""
+
+#: app/class-zip.php:69
+msgid "Preparing Files..."
+msgstr ""
+
+#: app/class-zip.php:127
+msgid "Downloading Files..."
+msgstr ""
+
+#: app/class-zip.php:182
+msgid "Error creating ZIP file"
+msgstr ""
+
+#: includes/base.php:100
+msgid "Docs"
+msgstr ""
+
+#: includes/class-admin.php:122
+msgid "File Browser - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:123
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:18
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:57
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:90
+#: includes/elementor/class-elementor.php:434
+#: includes/views/getting-started/introduction.php:145
+#: includes/views/getting-started/introduction.php:158
+#: assets/js/admin.js:1
+msgid "File Browser"
+msgstr ""
+
+#: includes/class-admin.php:127
+msgid "Shortcode Builder - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:128
+#: includes/views/getting-started/basic-usage.php:90
+#: includes/views/getting-started/basic-usage.php:117
+#: includes/views/getting-started/get-pro.php:25
+#: assets/js/admin.js:1
+msgid "Shortcode Builder"
+msgstr ""
+
+#: includes/class-admin.php:132
+msgid "Users Private Files - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:133
+msgid "Users Private Files"
+msgstr ""
+
+#: includes/class-admin.php:137
+msgid "Getting Started - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:138
+#: includes/views/getting-started/index.php:17
+msgid "Getting Started"
+msgstr ""
+
+#: includes/class-admin.php:142
+msgid "Statistics - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:143
+#: includes/views/getting-started/get-pro.php:65
+#: assets/js/settings.js:1
+#: assets/js/statistics.js:1
+msgid "Statistics"
+msgstr ""
+
+#: includes/class-admin.php:147
+msgid "Settings - Integrate Google Drive"
+msgstr ""
+
+#: includes/class-admin.php:148
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:19
+#: assets/js/settings.js:1
+msgid "Settings"
+msgstr ""
+
+#: includes/class-admin.php:175
+#: includes/class-admin.php:176
+msgid "Recommended Plugins"
+msgstr ""
+
+#: includes/class-admin.php:188
+#: includes/class-tinymce.php:35
+#: includes/integrations/class-dokan.php:471
+#: includes/integrations/class-formidableforms.php:226
+#: includes/integrations/class-gravityforms.php:270
+#: includes/integrations/class-tutor.php:83
+#: includes/integrations/class-tutor.php:340
+#: includes/integrations/class-wpforms.php:24
+msgid "Google Drive"
+msgstr ""
+
+#: includes/class-ajax.php:117
+#: includes/class-ajax.php:159
+#: includes/class-ajax.php:178
+#: includes/class-ajax.php:197
+#: includes/class-ajax.php:215
+#: includes/class-ajax.php:231
+#: includes/class-ajax.php:248
+#: includes/class-ajax.php:296
+#: includes/class-ajax.php:321
+#: includes/class-ajax.php:348
+#: includes/class-ajax.php:379
+#: includes/class-ajax.php:396
+#: includes/class-ajax.php:451
+#: includes/class-ajax.php:520
+#: includes/class-ajax.php:555
+#: includes/class-ajax.php:639
+#: includes/class-ajax.php:671
+#: includes/class-ajax.php:691
+#: includes/class-ajax.php:714
+#: includes/class-ajax.php:735
+#: includes/class-ajax.php:787
+#: includes/class-ajax.php:807
+#: includes/class-ajax.php:825
+#: includes/class-ajax.php:843
+#: includes/class-ajax.php:888
+#: includes/class-ajax.php:922
+#: includes/class-ajax.php:951
+#: includes/class-ajax.php:1005
+#: includes/class-ajax__premium_only.php:168
+#: includes/class-ajax__premium_only.php:210
+#: includes/class-ajax__premium_only.php:229
+#: includes/class-ajax__premium_only.php:248
+#: includes/class-ajax__premium_only.php:266
+#: includes/class-ajax__premium_only.php:282
+#: includes/class-ajax__premium_only.php:299
+#: includes/class-ajax__premium_only.php:347
+#: includes/class-ajax__premium_only.php:372
+#: includes/class-ajax__premium_only.php:399
+#: includes/class-ajax__premium_only.php:430
+#: includes/class-ajax__premium_only.php:450
+#: includes/class-ajax__premium_only.php:501
+#: includes/class-ajax__premium_only.php:553
+#: includes/class-ajax__premium_only.php:619
+#: includes/class-ajax__premium_only.php:637
+msgid "Invalid request"
+msgstr ""
+
+#: includes/class-ajax.php:122
+#: includes/class-ajax.php:183
+#: includes/class-ajax.php:301
+#: includes/class-ajax.php:326
+#: includes/class-ajax.php:353
+#: includes/class-ajax.php:404
+#: includes/class-ajax.php:459
+#: includes/class-ajax.php:528
+#: includes/class-ajax__premium_only.php:173
+#: includes/class-ajax__premium_only.php:234
+#: includes/class-ajax__premium_only.php:352
+#: includes/class-ajax__premium_only.php:377
+#: includes/class-ajax__premium_only.php:404
+#: includes/class-ajax__premium_only.php:435
+#: includes/class-ajax__premium_only.php:472
+#: includes/class-ajax__premium_only.php:506
+#: includes/class-ajax__premium_only.php:558
+#: includes/class-ajax__premium_only.php:624
+#: includes/class-ajax__premium_only.php:642
+msgid "You do not have permission to access this page"
+msgstr ""
+
+#: includes/class-ajax.php:164
+#: includes/class-ajax__premium_only.php:215
+msgid "You do not have permission."
+msgstr ""
+
+#: includes/class-ajax.php:202
+#: includes/class-ajax.php:560
+#: includes/class-ajax.php:644
+#: includes/class-ajax.php:676
+#: includes/class-ajax.php:696
+#: includes/class-ajax.php:719
+#: includes/class-ajax.php:740
+#: includes/class-ajax.php:792
+#: includes/class-ajax.php:812
+#: includes/class-ajax.php:830
+#: includes/class-ajax.php:848
+#: includes/class-ajax.php:893
+#: includes/class-ajax.php:927
+#: includes/class-ajax.php:956
+#: includes/class-ajax.php:1010
+#: includes/class-ajax.php:1073
+#: includes/class-ajax.php:1095
+#: includes/class-ajax.php:1132
+#: includes/class-ajax.php:1150
+#: includes/class-ajax__premium_only.php:253
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: includes/class-ajax.php:220
+#: includes/class-ajax.php:236
+#: includes/class-ajax.php:253
+#: includes/class-ajax.php:384
+#: includes/class-ajax.php:542
+#: includes/class-ajax__premium_only.php:271
+#: includes/class-ajax__premium_only.php:287
+#: includes/class-ajax__premium_only.php:304
+#: includes/class-ajax__premium_only.php:455
+#: includes/class-statistics__premium_only.php:41
+#: includes/class-statistics__premium_only.php:186
+#: includes/class-statistics__premium_only.php:198
+msgid "You do not have permission to perform this action"
+msgstr ""
+
+#. translators: %s: User feedback
+#: includes/class-ajax.php:263
+#: includes/class-ajax__premium_only.php:314
+msgid "Feedback: %s"
+msgstr ""
+
+#. translators: %s: Website URL
+#: includes/class-ajax.php:267
+#: includes/class-ajax__premium_only.php:318
+msgid "Website URL: %s"
+msgstr ""
+
+#. translators: %s: Plugin name
+#: includes/class-ajax.php:270
+#: includes/class-ajax__premium_only.php:321
+msgid "Feedback for %s"
+msgstr ""
+
+#: includes/class-ajax.php:568
+#: includes/class-ajax__premium_only.php:669
+msgid "No active account found"
+msgstr ""
+
+#: includes/class-ajax.php:874
+#: includes/class-ajax.php:901
+#: includes/class-ajax__premium_only.php:960
+#: includes/class-ajax__premium_only.php:1193
+msgid "Something went wrong! Preview is not available"
+msgstr ""
+
+#: includes/class-ajax.php:1068
+#: includes/class-ajax.php:1127
+msgid "Invalid request!"
+msgstr ""
+
+#: includes/class-ajax.php:1111
+#: includes/class-ajax__premium_only.php:1221
+msgid "File not found"
+msgstr ""
+
+#: includes/class-ajax__premium_only.php:1006
+#: includes/views/photo-proof-email__premium_only.php:168
+msgid "Client Photo Proof Selection"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:48
+msgid "Once Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:83
+#: assets/js/settings.js:1
+msgid "Weekly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:87
+#: assets/js/settings.js:1
+msgid "Monthly"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:90
+#: assets/js/settings.js:1
+msgid "Daily"
+msgstr ""
+
+#: includes/class-email-report__premium_only.php:104
+msgid " Statistics Summary of Integrate Google Drive."
+msgstr ""
+
+#. translators: %d: number of files
+#: includes/class-hooks.php:308
+#: includes/class-hooks.php:324
+msgid "%d file uploaded to Google Drive"
+msgid_plural "%d files uploaded to Google Drive"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-hooks.php:373
+msgid "Integrate Google Drive Synchronize Interval"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:200
+msgid "An anonymous user"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:204
+msgid "file"
+msgstr ""
+
+#. translators: %1$s: number of files, %2$s: folder name
+#: includes/class-notifications__premium_only.php:222
+msgid "%1$s files to %2$s."
+msgstr ""
+
+#. translators: %1$s: file name, %2$s: folder name
+#: includes/class-notifications__premium_only.php:225
+msgid "%1$s file to %2$s."
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:230
+msgid "%1$s uploaded %2$s"
+msgstr ""
+
+#. translators: %1$s: number of files
+#: includes/class-notifications__premium_only.php:236
+#: includes/class-notifications__premium_only.php:263
+msgid "(%1$s) file(s)"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:241
+msgid "%1$s deleted %2$s"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:248
+msgid "%1$s searched for %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:253
+msgid "%1$s played %2$s"
+msgstr ""
+
+#. translators: %1$s: user name, %2$s: file name
+#: includes/class-notifications__premium_only.php:258
+msgid "%1$s viewed %2$s"
+msgstr ""
+
+#: includes/class-notifications__premium_only.php:268
+msgid "%1$s downloaded %2$s"
+msgstr ""
+
+#: includes/class-shortcode.php:107
+#: assets/js/admin.js:1
+msgid "Access Denied"
+msgstr ""
+
+#: includes/class-shortcode.php:107
+#: assets/js/admin.js:1
+msgid "We're sorry, but your account does not currently have access to this content. To gain access, please contact the site administrator who can assist in linking your account to the appropriate content. Thank you."
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:61
+#: includes/class-statistics__premium_only.php:81
+#: includes/class-statistics__premium_only.php:95
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Type"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:62
+#: includes/class-statistics__premium_only.php:96
+msgid "File Name"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:63
+#: includes/class-statistics__premium_only.php:97
+#: includes/integrations/class-acf.php:123
+msgid "File ID"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:64
+#: includes/class-statistics__premium_only.php:101
+#: assets/js/statistics.js:1
+msgid "Date"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:82
+#: includes/class-statistics__premium_only.php:99
+msgid "User Name"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:83
+#: includes/class-statistics__premium_only.php:100
+msgid "User ID"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:84
+msgid "Action Count"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:98
+msgid "FIle Type"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:182
+msgid "Invalid nonce"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:192
+msgid "Statistics cleared successfully"
+msgstr ""
+
+#: includes/class-statistics__premium_only.php:302
+#: includes/class-statistics__premium_only.php:343
+msgid "Guest"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:19
+msgid "Google Drive File Browser"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:50
+#: includes/divi/includes/modules/Download/Download.php:50
+#: includes/divi/includes/modules/Embed/Embed.php:50
+#: includes/divi/includes/modules/Gallery/Gallery.php:50
+#: includes/divi/includes/modules/Media/Media.php:50
+#: includes/divi/includes/modules/Search/Search.php:50
+#: includes/divi/includes/modules/Slider/Slider.php:50
+#: includes/divi/includes/modules/Uploader/Uploader.php:50
+#: includes/divi/includes/modules/View/View.php:50
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:97
+#: includes/elementor/class-elementor-download-widget.php:98
+#: includes/elementor/class-elementor-embed-widget.php:97
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:97
+#: includes/elementor/class-elementor-media-widget__premium_only.php:100
+#: includes/elementor/class-elementor-search-widget__premium_only.php:97
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:98
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:97
+#: includes/elementor/class-elementor-view-widget.php:98
+#: assets/js/admin.js:1
+msgid "Configure Module"
+msgstr ""
+
+#: includes/divi/includes/modules/Browser/Browser.php:53
+#: includes/divi/includes/modules/Download/Download.php:53
+#: includes/divi/includes/modules/Embed/Embed.php:53
+#: includes/divi/includes/modules/Gallery/Gallery.php:53
+#: includes/divi/includes/modules/Media/Media.php:53
+#: includes/divi/includes/modules/Search/Search.php:53
+#: includes/divi/includes/modules/Slider/Slider.php:53
+#: includes/divi/includes/modules/Uploader/Uploader.php:53
+#: includes/divi/includes/modules/View/View.php:53
+msgid "Configure the module"
+msgstr ""
+
+#: includes/divi/includes/modules/Download/Download.php:19
+msgid "Google Drive Download Links"
+msgstr ""
+
+#: includes/divi/includes/modules/Download/Download.php:25
+#: includes/divi/includes/modules/Slider/Slider.php:25
+#: includes/divi/includes/modules/Uploader/Uploader.php:25
+#: includes/divi/includes/modules/View/View.php:25
+msgid "Module Configuration"
+msgstr ""
+
+#: includes/divi/includes/modules/Embed/Embed.php:19
+msgid "Google Drive Embed"
+msgstr ""
+
+#: includes/divi/includes/modules/Gallery/Gallery.php:19
+msgid "Google Drive Gallery"
+msgstr ""
+
+#: includes/divi/includes/modules/Media/Media.php:19
+msgid "Google Drive Media Player"
+msgstr ""
+
+#: includes/divi/includes/modules/Search/Search.php:19
+msgid "Google Drive Search Box"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:20
+msgid "Google Drive Shortcodes"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:55
+#: includes/elementor/class-elementor-shortcodes-widget.php:65
+msgid "Select Shortcode"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:59
+#: includes/elementor/class-elementor-shortcodes-widget.php:62
+msgid "Select Shortcode Module"
+msgstr ""
+
+#: includes/divi/includes/modules/Shortcodes/Shortcodes.php:62
+msgid "Select a shortcode module"
+msgstr ""
+
+#: includes/divi/includes/modules/Slider/Slider.php:19
+msgid "Google Drive Slider Carousel"
+msgstr ""
+
+#: includes/divi/includes/modules/Uploader/Uploader.php:19
+msgid "Google Drive Uploader"
+msgstr ""
+
+#: includes/divi/includes/modules/View/View.php:19
+msgid "Google Drive View Links"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:62
+#: includes/elementor/class-elementor-download-widget.php:63
+#: includes/elementor/class-elementor-embed-widget.php:62
+#: includes/elementor/class-elementor-form__premium_only.php:47
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:62
+#: includes/elementor/class-elementor-media-widget__premium_only.php:65
+#: includes/elementor/class-elementor-search-widget__premium_only.php:62
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:63
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:62
+#: includes/elementor/class-elementor-view-widget.php:63
+#: includes/elementor/class-metform__premium_only.php:74
+msgid "Module Data"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:70
+#: includes/elementor/class-elementor-download-widget.php:71
+#: includes/elementor/class-elementor-embed-widget.php:70
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:70
+#: includes/elementor/class-elementor-media-widget__premium_only.php:73
+#: includes/elementor/class-elementor-search-widget__premium_only.php:70
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:71
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:70
+#: includes/elementor/class-elementor-view-widget.php:71
+msgid "Configure  Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:71
+#: includes/elementor/class-elementor-download-widget.php:72
+#: includes/elementor/class-elementor-embed-widget.php:71
+#: includes/elementor/class-elementor-form__premium_only.php:61
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:71
+#: includes/elementor/class-elementor-media-widget__premium_only.php:74
+#: includes/elementor/class-elementor-search-widget__premium_only.php:71
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:72
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:71
+#: includes/elementor/class-elementor-view-widget.php:72
+#: includes/elementor/class-metform__premium_only.php:83
+#: includes/integrations/class-cf7.php:356
+#: includes/integrations/class-fluentforms.php:253
+#: includes/integrations/class-formidableforms.php:270
+#: includes/integrations/class-gravityforms.php:220
+msgid "Configure"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:73
+#: includes/elementor/class-elementor-download-widget.php:74
+#: includes/elementor/class-elementor-embed-widget.php:73
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:73
+#: includes/elementor/class-elementor-media-widget__premium_only.php:76
+#: includes/elementor/class-elementor-search-widget__premium_only.php:73
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:74
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:73
+#: includes/elementor/class-elementor-view-widget.php:74
+msgid "Configure the module first to display the content"
+msgstr ""
+
+#: includes/elementor/class-elementor-browser-widget__premium_only.php:91
+#: includes/elementor/class-elementor-download-widget.php:92
+#: includes/elementor/class-elementor-embed-widget.php:91
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:91
+#: includes/elementor/class-elementor-media-widget__premium_only.php:94
+#: includes/elementor/class-elementor-search-widget__premium_only.php:91
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:92
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:91
+#: includes/elementor/class-elementor-view-widget.php:92
+msgid "Please, configure the module first to display the content"
+msgstr ""
+
+#: includes/elementor/class-elementor-download-widget.php:19
+#: includes/elementor/class-elementor-download-widget.php:58
+#: includes/elementor/class-elementor-download-widget.php:91
+#: assets/js/admin.js:1
+msgid "Insert Download Links"
+msgstr ""
+
+#: includes/elementor/class-elementor-embed-widget.php:19
+#: includes/elementor/class-elementor-embed-widget.php:57
+#: includes/elementor/class-elementor-embed-widget.php:90
+#: includes/views/getting-started/basic-usage.php:85
+#: includes/views/getting-started/introduction.php:243
+#: assets/js/admin.js:1
+msgid "Embed Documents"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:26
+#: includes/elementor/class-metform__premium_only.php:25
+#: includes/integrations/class-cf7.php:309
+#: includes/integrations/class-fluentforms.php:16
+msgid "Google Drive Upload"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:60
+#: includes/elementor/class-metform__premium_only.php:82
+msgid "Configure  Uploader"
+msgstr ""
+
+#: includes/elementor/class-elementor-form__premium_only.php:63
+#: includes/elementor/class-metform__premium_only.php:85
+msgid "Configure the uploader"
+msgstr ""
+
+#. translators: %d: minimum file uploads
+#: includes/elementor/class-elementor-form__premium_only.php:148
+msgid "Please upload at least %d file(s)"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:19
+#: includes/elementor/class-elementor.php:440
+#: includes/views/getting-started/introduction.php:201
+#: assets/js/admin.js:1
+msgid "Gallery"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:57
+msgid "Gallery Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-gallery-widget__premium_only.php:90
+#: includes/views/getting-started/basic-usage.php:55
+msgid "Photo Gallery"
+msgstr ""
+
+#: includes/elementor/class-elementor-media-widget__premium_only.php:19
+#: includes/elementor/class-elementor-media-widget__premium_only.php:60
+#: includes/elementor/class-elementor-media-widget__premium_only.php:93
+#: includes/elementor/class-elementor.php:452
+#: includes/views/getting-started/introduction.php:185
+#: assets/js/admin.js:1
+msgid "Media Player"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:19
+#: includes/elementor/class-elementor.php:458
+#: assets/js/admin.js:1
+msgid "Search Box"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:57
+msgid "File Search Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-search-widget__premium_only.php:90
+#: includes/views/getting-started/basic-usage.php:60
+#: includes/views/getting-started/introduction.php:231
+#: assets/js/admin.js:1
+msgid "File Search"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:17
+#: assets/js/admin.js:1
+msgid "Module Shortcodes"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:55
+msgid "Module Shortcode"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:94
+msgid "Google Drive Module Shortcodes"
+msgstr ""
+
+#: includes/elementor/class-elementor-shortcodes-widget.php:95
+msgid "Please select a shortcode from the widget settings."
+msgstr ""
+
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:19
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:91
+#: includes/elementor/class-elementor.php:464
+#: includes/views/getting-started/introduction.php:215
+#: assets/js/admin.js:1
+msgid "Slider Carousel"
+msgstr ""
+
+#: includes/elementor/class-elementor-slider-widget__premium_only.php:58
+msgid "Slider Carousel Module"
+msgstr ""
+
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:18
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:57
+#: includes/elementor/class-elementor-uploader-widget__premium_only.php:90
+#: includes/elementor/class-elementor.php:446
+#: includes/views/getting-started/basic-usage.php:52
+#: includes/views/getting-started/introduction.php:165
+#: includes/views/getting-started/introduction.php:177
+#: assets/js/admin.js:1
+msgid "File Uploader"
+msgstr ""
+
+#: includes/elementor/class-elementor-view-widget.php:19
+#: includes/elementor/class-elementor-view-widget.php:58
+#: includes/elementor/class-elementor-view-widget.php:91
+#: assets/js/admin.js:1
+msgid "Insert View Links"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:68
+msgid "Content"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:97
+msgid "Validation Type"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:106
+msgid "File Size Limit : "
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:124
+msgid "Label"
+msgstr ""
+
+#: includes/elementor/class-metform__premium_only.php:160
+#: includes/integrations/class-cf7.php:225
+msgid "This field is required."
+msgstr ""
+
+#: includes/functions.php:45
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Shared Drives"
+msgstr ""
+
+#: includes/functions.php:53
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Shared with me"
+msgstr ""
+
+#: includes/functions.php:57
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Computers"
+msgstr ""
+
+#: includes/functions.php:1515
+msgid "The file you are trying to load does not exist in your theme or Tutor LMS plugin location. If you are extending the Tutor LMS plugin, please create a php file here: "
+msgstr ""
+
+#: includes/integrations/class-acf.php:13
+msgid "Google Drive Files"
+msgstr ""
+
+#: includes/integrations/class-acf.php:122
+#: includes/integrations/class-cf7.php:344
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+msgid "Name"
+msgstr ""
+
+#: includes/integrations/class-acf.php:124
+#: assets/js/admin.js:1
+#: assets/js/private-folders.js:1
+msgid "Actions"
+msgstr ""
+
+#: includes/integrations/class-acf.php:138
+msgid "View"
+msgstr ""
+
+#: includes/integrations/class-acf.php:140
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Download"
+msgstr ""
+
+#: includes/integrations/class-acf.php:142
+#: includes/integrations/templates/dokan-settings.php:69
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:61
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Remove"
+msgstr ""
+
+#: includes/integrations/class-acf.php:147
+msgid "No Files Added"
+msgstr ""
+
+#: includes/integrations/class-acf.php:155
+#: assets/js/dokan.js:1
+#: assets/js/edd.js:1
+#: assets/js/woocommerce.js:1
+msgid "Add File"
+msgstr ""
+
+#. translators: %d: minimum file uploads
+#: includes/integrations/class-cf7.php:238
+#: includes/integrations/class-fluentforms.php:370
+#: includes/integrations/class-gravityforms.php:405
+#: includes/integrations/class-wpforms.php:237
+msgid "Please upload at least %d files."
+msgstr ""
+
+#: includes/integrations/class-cf7.php:320
+msgid "Generate a form-tag for this upload field."
+msgstr ""
+
+#: includes/integrations/class-cf7.php:328
+#: includes/integrations/class-cf7.php:332
+msgid "Field type"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:335
+msgid "Required field"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:366
+#: includes/integrations/class-formidableforms.php:260
+#: includes/integrations/class-gravityforms.php:226
+#: includes/integrations/class-ninjaforms.php:265
+#: includes/integrations/class-ninjaforms.php:279
+#: includes/integrations/class-wpforms.php:351
+msgid "Configure Uploader"
+msgstr ""
+
+#: includes/integrations/class-cf7.php:382
+msgid "Insert Tag"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:175
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:838
+msgid "Uploadable"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:177
+msgid "Let your customers upload files on purchase."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:189
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:139
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:414
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:854
+msgid "Upload Documents"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:197
+msgid "Uploadable Options"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:199
+msgid "Configure your uploadable product settings"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:213
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:868
+#: assets/js/media-library.js:1
+msgid "Upload to Google Drive"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:217
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:874
+msgid "Google Drive Upload Settings"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:223
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:879
+msgid "Upload Button Text"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:230
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:890
+msgid "Upload Description"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:241
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:913
+msgid "Min Upload Files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:245
+msgid "Minimum number of files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:250
+msgid "Minimum number of files required to upload. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:257
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:901
+msgid "Max Upload Files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:261
+msgid "Maximum number of files"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:266
+msgid "Maximum number of files allowed to upload. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:277
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:936
+msgid "Min File Size"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:281
+msgid "Min file size in MB"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:286
+msgid "Minimum file size in MB. Leave blank to allow all file sizes."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:293
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:925
+msgid "Max File Size"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:297
+msgid "Max file size in MB"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:302
+msgid "Maximum file size in MB. Leave blank to allow all file sizes."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:311
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:320
+msgid "Comma separated file extensions (e.g: png, jpg, zip). Leave blank to allow all file types."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:514
+msgid "Integrate your Google Drive with your store to use product images and download files directly from your Drive"
+msgstr ""
+
+#: includes/integrations/class-dokan.php:516
+msgid "And customers can also upload files to your Google Drive after making a purchase."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:519
+msgid "Connect your Google Drive account with your store to use product images and download able files from Google Drive."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:521
+msgid "Connect your Google Drive account with your store to let customers upload files to your Google Drive account on purchase."
+msgstr ""
+
+#: includes/integrations/class-dokan.php:523
+msgid "Connect your Google Drive account with your store to use product images and download able files from your Google Drive and let customers upload files to your Google Drive on product purchase."
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:214
+#: includes/integrations/class-fluentforms.php:285
+#: includes/integrations/class-formidableforms.php:235
+#: includes/integrations/class-gravityforms.php:243
+msgid "Attach your documents"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:222
+msgid "This field is required"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:250
+#: assets/js/admin.js:1
+msgid "Shortcode Data"
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:251
+msgid "Grab the Shortcode Data via the shortcode builder and copy + paste in this field."
+msgstr ""
+
+#: includes/integrations/class-fluentforms.php:253
+msgid "Configure the uploader field using the module shortcode builder and copy + paste the Shortcode Data in this field."
+msgstr ""
+
+#: includes/integrations/class-formidableforms.php:236
+msgid "No file selected"
+msgstr ""
+
+#. translators: %d: minimum number of files
+#: includes/integrations/class-formidableforms.php:375
+msgid "Please upload at least %d file(s)."
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:235
+msgid "Configure the uploader field."
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:288
+msgid "Integrate Google Drive Fields"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:307
+msgid "Let users attach files to this form. The files will be stored in the Google Drive"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:342
+msgid "This field is not editable"
+msgstr ""
+
+#: includes/integrations/class-gravityforms.php:392
+msgid "This field is required. Please upload your files."
+msgstr ""
+
+#: includes/integrations/class-media-library.php:245
+#: includes/integrations/templates/dokan-settings.php:63
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:55
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Refresh"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:441
+#: assets/js/media-library.js:1
+msgid "Replace"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:442
+msgid "Replace the file with a Google Drive file"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:449
+#: assets/js/admin.js:1
+#: assets/js/media-library.js:1
+msgid "Upload"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:450
+msgid "Upload the file to Google Drive"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:460
+#: assets/js/media-library.js:1
+msgid "Restore"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:461
+msgid "Restore the file to original media library file"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:470
+#: assets/js/settings.js:1
+msgid "Import"
+msgstr ""
+
+#: includes/integrations/class-media-library.php:471
+msgid "Import the file to media library"
+msgstr ""
+
+#: includes/integrations/class-ninjaforms.php:268
+msgid "Configure the file uploader with module builder."
+msgstr ""
+
+#. translators: %s: minimum files
+#: includes/integrations/class-ninjaforms.php:323
+#: assets/js/frontend.js:1
+msgid "Please upload at least %s files."
+msgstr ""
+
+#: includes/integrations/class-tutor.php:201
+#: includes/integrations/class-tutor.php:389
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Size"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:362
+msgid "Select Your Video"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:363
+msgid "File Format: "
+msgstr ""
+
+#: includes/integrations/class-tutor.php:370
+msgid "Browse Video"
+msgstr ""
+
+#: includes/integrations/class-tutor.php:418
+msgid "Upload Video Poster"
+msgstr ""
+
+#: includes/integrations/class-wpforms.php:364
+msgid "Data"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:122
+msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:123
+msgid "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:124
+msgid "The uploaded file was only partially uploaded"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:125
+msgid "No file was uploaded"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:126
+msgid "Missing a temporary folder"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:127
+msgid "Failed to write file to disk"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:128
+msgid "A PHP extension stopped the file upload"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:129
+msgid "The uploaded file exceeds the post_max_size directive in php.ini"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:130
+msgid "File is too big"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:131
+msgid "File is too small"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:132
+msgid "Filetype not allowed"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:133
+msgid "Maximum number of files exceeded"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:134
+msgid "Image exceeds maximum width"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:135
+msgid "Image requires a minimum width"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:136
+msgid "Image exceeds maximum height"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:137
+msgid "Image requires a minimum height"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:142
+msgid "No files to upload"
+msgstr ""
+
+#: includes/integrations/media-library/class-media-uploader.php:150
+msgid "Unknown error"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:28
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:27
+msgid "Google Drive Accounts"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:33
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:71
+#: assets/js/settings.js:1
+msgid "Add new account"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:80
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:79
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "You didn't link any account yet."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:82
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:81
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Please link to a Google Drive account to continue."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:87
+#: includes/integrations/templates/tutor/dashboard/settings/google-drive.php:86
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Sign in with Google"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:103
+#: assets/js/settings.js:1
+msgid "Media Library Settings"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:107
+#: includes/integrations/templates/dokan-settings.php:189
+msgid "Save Settings"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:113
+#: includes/integrations/templates/dokan-settings.php:195
+msgid "Settings saved successfully"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:122
+#: includes/views/getting-started/introduction.php:5
+#: assets/js/settings.js:1
+msgid "Media Library"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:129
+msgid "Enable Google Drive as Media Library"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:133
+msgid "Connect your Google Drive to WordPress media library, So you can use Google Drive files like images and downloads directly in your products."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:141
+#: assets/js/settings.js:1
+msgid "Media Library Folders"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:166
+#: assets/js/settings.js:1
+msgid "Update Folders"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:166
+#: assets/js/admin.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Select Folders"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:173
+msgid "Select the Google Drive folders that you want to use in the Media Library."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:185
+msgid "Upload Settings"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:205
+#: assets/js/settings.js:1
+msgid "Upload Box Locations"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:214
+#: assets/js/settings.js:1
+msgid "Product Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:215
+#: assets/js/settings.js:1
+msgid "Cart Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:216
+#: assets/js/settings.js:1
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:217
+#: assets/js/settings.js:1
+msgid "Order Received Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:218
+#: assets/js/settings.js:1
+msgid "My Account Page"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:243
+msgid "Select the pages where you want to show the upload box."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:252
+msgid "Show When Order Status is"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:282
+msgid "Select the order status when the upload field will be shown to the customer."
+msgstr ""
+
+#. translators: %1$s: <strong> tag, %2$s: </strong> tag
+#: includes/integrations/templates/dokan-settings.php:286
+msgid "This option will only work on the %1$s Order Received %2$s and %1$s My Account %2$s page."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:295
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Enable File Description"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:302
+msgid "Enable file description field for the uploaded files."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:306
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Allow users to add a description to the uploaded files."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:314
+msgid "Folder Naming Template"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:327
+msgid "Unique folder name for the uploaded files. A new folder will be created in the parent folder with this name."
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:330
+msgid "Available Placeholders (Click to insert) : "
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:357
+#: assets/js/settings.js:1
+msgid "Upload Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:409
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Change Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:409
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Select Parent Folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:416
+msgid "You didn't link any Google account yet. Please link a Google account to select the upload folder"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:417
+msgid "Link a Google account →"
+msgstr ""
+
+#: includes/integrations/templates/dokan-settings.php:422
+msgid "Select the parent folder where the new folder will be created."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:82
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:120
+msgid "Please upload at least "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:130
+msgid "Upload Options"
+msgstr ""
+
+#. translators: %1$s: order url, %2$s: order url
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:228
+msgid " You can now start uploading your documents"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:241
+msgid "Uploaded Files"
+msgstr ""
+
+#. translators: %s: order url
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:389
+msgid "You can start uploading your documents on the %1$s order page%2$s"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:422
+msgid "Upload files for "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:509
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:774
+msgid "Anonymous user"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:522
+msgid "Files of "
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:839
+msgid "Allow customers to upload files to this product."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:881
+msgid "Enter the upload button text."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:892
+msgid "Enter the description for the upload box."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:903
+msgid "Maximum number of files that can be uploaded. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:915
+msgid "Minimum number of files that can be uploaded. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:927
+msgid "Maximum file size in MB. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:938
+msgid "Minimum file size in MB. Leave blank for no limit."
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:947
+msgid "Allowed File Extensions"
+msgstr ""
+
+#: includes/integrations/woocommerce/class-woocommerce-uploads.php:949
+msgid "Comma separated list of allowed file extensions e.g (jpg, png, gif). Leave blank for no limit."
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:6
+msgid "Weekly Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:9
+msgid "Monthly Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:11
+msgid "Daily Statistics Summary"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:77
+#: assets/js/statistics.js:1
+msgid "Top Downloads"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:81
+#: assets/js/statistics.js:1
+msgid "Top Uploads"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:85
+#: assets/js/statistics.js:1
+msgid "Top Streams"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:89
+#: assets/js/statistics.js:1
+msgid "Top Previews"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:116
+#: assets/js/statistics.js:1
+msgid "File"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:119
+msgid "Count"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:161
+msgid "Latest Activities"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:179
+#: assets/js/statistics.js:1
+msgid "A visitor"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:220
+msgid "View All Logs"
+msgstr ""
+
+#: includes/views/email-report__premium_only.php:240
+#: includes/views/notification-email__premium_only.php:111
+msgid "This email has been generated from Integrate Google Drive at"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:3
+#: includes/views/getting-started/index.php:54
+msgid "Basic Usage"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:4
+msgid "A Beginner's Guide to Efficiently Using the Plugin"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:10
+msgid "Link a Google account"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:11
+msgid "After activating the plugin you have to link your Google account to the plugin. You can link multiple Google account to the plugin."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:13
+msgid "Follow the below steps to add a Google account to the plugin:"
+msgstr ""
+
+#. translators: %s: Google Drive
+#: includes/views/getting-started/basic-usage.php:17
+msgid "Go to the Google Drive or %1$s Google Drive > Settings %2$s page in the WordPress admin dashboard on your website."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:18
+msgid "Click on the Add account button."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:19
+msgid "A new window will open, you will be redirected to the Google login page to login with your email."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:20
+msgid "Select the email address with which you want to login."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:21
+msgid "Click the Allow button to authorize the plugin to access your Google Drive data."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:22
+msgid "Wait for the authorization process, then you are done!"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:29
+#: includes/views/getting-started/basic-usage.php:75
+#: includes/views/getting-started/basic-usage.php:102
+msgid "YouTube video player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:40
+msgid "Shortcode Module Builder"
+msgstr ""
+
+#. translators: %s: shortcode
+#: includes/views/getting-started/basic-usage.php:43
+msgid "You can create any numbers of shortcode module and use them in your post/ page using the %1$s[integrate_google_drive]%2$s shortcode."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:45
+#: includes/views/getting-started/basic-usage.php:115
+msgid "There are several module types to create a shortcode. Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:47
+msgid "File Browser -"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:48
+msgid "Users can browse your Google Drive files."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:49
+#: includes/views/getting-started/get-pro.php:13
+msgid "Embed Document"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:50
+msgid "Embed any Google Drive file to your page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:53
+msgid "Users can upload files to your Google Drive account from your website."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:56
+msgid "Lightbox grid photo gallery module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:57
+msgid "Audio & Video Player"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:58
+msgid "Play audio and video in a single player using this module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:61
+msgid "Users can search any Google Drive files from your website using this module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:63
+#: includes/views/getting-started/get-pro.php:17
+msgid "File View Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:64
+msgid "Insert any Google Drive file view link to yor page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:66
+#: includes/views/getting-started/get-pro.php:21
+msgid "File Download Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:67
+msgid "Insert any Google Drive file download link to yor page/ post"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:86
+msgid "You can embed any Google Drive files to your page/ post in two ways."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:88
+msgid "Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:91
+msgid "To embed any documents with the shortcode builder you have to select the Embed Documents type."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:93
+#: includes/views/getting-started/basic-usage.php:120
+msgid "Classic Editor Button"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:94
+msgid "You can embed your Google Drive documents using the classic editor Google Drive button while you are editing any page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:112
+msgid "Insert Download/ View Links"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:113
+msgid "You can insert direct links in any page/ post to download and view any Google Drive files. Here also you can insert the direct links to download/ view using two ways. Those are:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:118
+msgid "To insert any Google Drive files links with the shortcode builder you have to select the File Download Link/ File View Link type."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:121
+msgid "You can also insert any Google Drive files links using the Classic Editor Google Drive button while you are editing any page/ post."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:139
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "User Private Files"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:141
+msgid ""
+"Using Private Files you can easily and securely share your Google Drive documents with your\n"
+"                users/clients. This allows your users/ clients to view, download and manage their documents in their own\n"
+"                private folders."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:145
+msgid "You can also link your users to the specific folders to your Google Drive cloud files."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:147
+msgid "The Private Folders can be useful in some situations, for example:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:149
+msgid "You want your clients, users or guests upload files to their own folder"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:150
+msgid "You want to share documents with your users/ clients privately"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:151
+msgid "Private Folders can be assigned to a user both automatically or manually."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:152
+msgid "You can assign the folders to the users manually from the Private Folders page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:155
+msgid "To link the folders for the users, follow the below steps:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:157
+msgid "Go to Admin Dashboard > Google Drive > Private Folders"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:158
+msgid "Click on the Select Folders button on the users list. Then a new popup dialog will open."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:159
+msgid "Select the folders from the popup dialog."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:160
+msgid "Then click on the Done button on the top of the dialog."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:161
+msgid ""
+"You can also enable the auto creates private folders for each user when a new user is registered\n"
+"                    from\n"
+"                    the Settings page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:167
+msgid "For displaying the private folders for the users, follow the below steps:"
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:169
+msgid "Go to the Shortcode Builder and create a new shortcode module."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:170
+msgid "On the source tab, turn ON the Use Private Folders option."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:171
+msgid "Copy the shortcode and use it any page."
+msgstr ""
+
+#: includes/views/getting-started/basic-usage.php:172
+msgid ""
+"Now, while the users will visit the page they can navigate through the folders that are linked to\n"
+"                    their\n"
+"                    account."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:3
+#: includes/views/getting-started/index.php:63
+msgid "Data Privacy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:4
+msgid "Information about the Data and Privacy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:10
+msgid "Plugin authorization flow (OAuth)"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:12
+msgid ""
+"For technical reasons, the short-lived authorization code generated by the OAuth flow sent by your\n"
+"                internet browser to our server as part of the authentication (OAuth) flow to provide the Application\n"
+"                access to the Google Drive API."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:18
+msgid ""
+"The Application obtains the following information when you use the built-in app for authentication and\n"
+"                link the Application with your Google Drive Account:"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:23
+msgid "Your WordPress website address."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:24
+msgid "A short-lived authorization code generated by the OAuth flow."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:28
+msgid ""
+"This information is obtained and used after you decide to grand the Application the requested access via\n"
+"                the Google OAuth consent screen. After giving the consent, you will be redirected to the server of\n"
+"                softlabbd.com (https://softlabbd.com/integrate-google-drive-oauth.php) which will redirect you back to your\n"
+"                own site where the authorization process is finalized. This redirect via the server of softlabbd.com is\n"
+"                required for any easy plugin setup where you don’t need to create your own Google App which also allows\n"
+"                you to set your own Authorized redirect URI. SoftLab Privacy Policy"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:37
+msgid ""
+"On your own server, the short-lived authorization code will be exchanged for the actual access token and\n"
+"                refresh token which are stored, encrypted, on your server. The authorization code can only be used once\n"
+"                and will immediately become inactive after it has been exchanged for the access token or within minutes\n"
+"                if it is not used."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:44
+msgid "IMPORTANT:"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:44
+msgid ""
+"When you use the Application, all other communications are strictly between\n"
+"                your server and the cloud storage service servers. The communication is encrypted and the communication\n"
+"                will not go through our servers. We do not collect and do not have access to your files."
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:53
+msgid "Google Permissions for OAuth"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:55
+msgid ""
+"In order for the Application to work seamlessly, Google Drive permission is granted by users during the\n"
+"                standard oAuth authorization flow. Please see their privacy policies for further details"
+msgstr ""
+
+#: includes/views/getting-started/data-privacy.php:60
+msgid ""
+"The Application uses the Google Drive permissions to allow it to see, edit, create, and delete all of\n"
+"                your Google Drive files on your WordPress site. This is the core functionality of the plugin to make the\n"
+"                integration between Google Drive and WordPress as seamless as possible. We ask for the ‘see’ permission\n"
+"                to be able to list your files. The ‘create’ permission is used for uploading new content to your Google\n"
+"                Drive. The other permissions are required to manage your files on Google Drive which includes, renaming,\n"
+"                editing, deleting and sharing your files. Google Drive Privacy Policy and Terms of Use"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:5
+msgid "Easy setup"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:9
+msgid "Google Drive Files Management"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:29
+msgid "File Browser - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:33
+msgid "File Uploader - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:37
+msgid "Media Player - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:41
+msgid "Gallery - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:45
+msgid "File Search - Module"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:49
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Import to Media Library"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:53
+msgid "User Private Files & Folders"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:57
+#: includes/views/getting-started/introduction.php:303
+msgid "Multiple Google Accounts"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:61
+msgid "Use Own Google App"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:69
+msgid "Email Notification"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:73
+msgid "Classic Editor Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:77
+msgid "Gutenberg Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:81
+msgid "Elementor Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:85
+#: includes/views/getting-started/introduction.php:127
+msgid "Media Library Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:89
+msgid "WooCommerce Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:93
+msgid "Tutor LMS Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:97
+msgid "Easy Digital Downloads Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:101
+msgid "Contact Form 7 Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:105
+msgid "WPForms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:109
+msgid "Gravity Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:113
+msgid "Fluent Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:117
+msgid "Ninja Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:121
+msgid "Formidable Forms Integration"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:130
+msgid "Unlock the full power of the Google Drive integration with WordPress"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:131
+msgid "The amazing PRO features will make your Google Drive integration even more efficient"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:136
+#: includes/views/getting-started/get-pro.php:145
+msgid "Free"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:137
+msgid "vs"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:138
+#: includes/views/getting-started/get-pro.php:146
+msgid "Pro"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:144
+msgid "Feature List"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:169
+msgid "Don't waste time, get the PRO version now!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:170
+msgid ""
+"Upgrade to the PRO version of the plugin and unlock all the amazing Google Drive Integration features for\n"
+"                your website."
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:175
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:182
+msgid "Want to try live demo, before purchase?"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:183
+msgid ""
+"You can try our instant ready-made demo. The demo allows you to experiment with all the functionality of\n"
+"                the plugins on both Front-End and Back-End. Feel free to explore the possibilities and limits of our\n"
+"                plugins to see if it fits your requirements!"
+msgstr ""
+
+#: includes/views/getting-started/get-pro.php:191
+msgid "Try Live Demo"
+msgstr ""
+
+#: includes/views/getting-started/help.php:5
+msgid "Is there any upload file size limit for the File Uploader module?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:6
+msgid "No, using the File Uploader module you can upload unlimited size of files to your Google Drive."
+msgstr ""
+
+#: includes/views/getting-started/help.php:8
+msgid "Is the files uploaded directly to Google Drive?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:9
+msgid "Yes, the files directly uploaded to the Google Drive and doesn't affect your server storage or performance."
+msgstr ""
+
+#: includes/views/getting-started/help.php:12
+msgid "Can the users share the files using the file links or through email?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:13
+msgid "Yes, Users can share the files links via Direct File link, Email, Facebook, Twitter, and Whatsapp, and also can get embed code to share the file on a web page."
+msgstr ""
+
+#: includes/views/getting-started/help.php:16
+msgid "Can I link a Google Drive folder to a user on my site when they have been registered?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:17
+msgid "Yes, you can link a Google Drive folder to a user on your site when they have been registered. You can also link the private folders to the users manually."
+msgstr ""
+
+#: includes/views/getting-started/help.php:20
+msgid "Can I use multiple Google Drive accounts?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:21
+msgid "Yes, you can link to multiple Google Drive accounts to Integrate Google Drive plugin."
+msgstr ""
+
+#: includes/views/getting-started/help.php:24
+msgid "Are there any usage limits?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:25
+msgid ""
+"There are no bandwidth or file size issues for your web host. If you want to stream any media files (Audio, Video), the files will be streamed directly from Google Drive.\n"
+"<br><br>\n"
+"But, when any zip file will be downloaded, these will be downloaded through your site and can generate some traffic."
+msgstr ""
+
+#: includes/views/getting-started/help.php:30
+msgid "Documents preview not working?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:31
+msgid ""
+"In order to preview documents, the files should have the sharing permission \"Anyone with link can view\". The plugin will automatically change the sharing permission.\n"
+"<br><br>\n"
+"However, in some case the plugin isn't able to manage the sharing permissions even with those setting enabled. In that case, please try to set the sharing permissions manually via the native Google Drive interface."
+msgstr ""
+
+#: includes/views/getting-started/help.php:36
+msgid "How can I insert direct Audio/ Video/ Image files to my page/ post?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:37
+msgid ""
+"To insert any Audio/ Video/ Image files to your page/ post, you have to use the Embed module. You can use the shortcode builder, classic editor, gutenberg editor, elementor or divi page builder to create and display the embed module.\n"
+"<br><br>\n"
+"You just have to enable the \"Direct Media Display\" option from the \"Advanced\" tab, which allows media files to be displayed directly instead of through the embedded player. You can do this while configuring the Embed module."
+msgstr ""
+
+#: includes/views/getting-started/help.php:42
+msgid "Why is the embedded video/audio not working?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:43
+msgid "Sometimes, embedded audio and video files may not play properly. To fix this issue, enable the \"Direct Media Display\" option from the \"Advanced\" tab, which allows media files to be displayed directly instead of through the embedded player. You can do this while configuring the Embed module."
+msgstr ""
+
+#: includes/views/getting-started/help.php:46
+msgid "Why search module search results are slow?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:47
+msgid "The search module search results may take some time to show the search results. The time depends on the number of files that are selected for the search module. If your selected folders for the search module have a lot of children files then the search module search results may take some time to show the search results."
+msgstr ""
+
+#: includes/views/getting-started/help.php:50
+msgid "Can I allow my clients to use the \"Photo Proofing\" feature in the Image Gallery?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:51
+msgid "Absolutely. By turning on the \"Photo Proofing\" option within the gallery module, you empower clients to choose images for downloading or forwarding them to you for additional edits. To activate this feature, navigate to the \"Permissions\" tab during the gallery module setup and select the \"Photo Proofing\" option."
+msgstr ""
+
+#: includes/views/getting-started/help.php:61
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/views/getting-started/help.php:80
+msgid "Need Help?"
+msgstr ""
+
+#: includes/views/getting-started/help.php:81
+msgid "Read our knowledge base documentation or you can contact us directly."
+msgstr ""
+
+#: includes/views/getting-started/help.php:88
+#: includes/views/getting-started/help.php:91
+#: includes/views/getting-started/help.php:97
+#: assets/js/admin.js:1
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "Documentation"
+msgstr ""
+
+#: includes/views/getting-started/help.php:93
+msgid ""
+"Check out our detailed online documentation and video tutorials to find out more about what you can\n"
+"                    do."
+msgstr ""
+
+#: includes/views/getting-started/help.php:104
+msgid "Contact"
+msgstr ""
+
+#: includes/views/getting-started/help.php:107
+msgid "Support"
+msgstr ""
+
+#: includes/views/getting-started/help.php:108
+msgid "We have dedicated support team to provide you fast, friendly & top-notch customer support."
+msgstr ""
+
+#: includes/views/getting-started/help.php:110
+msgid "Get Support"
+msgstr ""
+
+#: includes/views/getting-started/help.php:118
+msgid "Join our Facebook Group"
+msgstr ""
+
+#: includes/views/getting-started/help.php:120
+msgid ""
+"Discuss, and share your problems & solutions for Integrate Google Drive WordPress plugin. Let's make a\n"
+"                better community, share ideas, solve problems and finally build good relations."
+msgstr ""
+
+#: includes/views/getting-started/help.php:128
+msgid "Join Now"
+msgstr ""
+
+#: includes/views/getting-started/index.php:15
+msgid "Complete Google Drive Integration for WordPress"
+msgstr ""
+
+#: includes/views/getting-started/index.php:30
+msgid "Introduction"
+msgstr ""
+
+#: includes/views/getting-started/index.php:38
+msgid "Changelog"
+msgstr ""
+
+#: includes/views/getting-started/index.php:84
+msgid "Help"
+msgstr ""
+
+#: includes/views/getting-started/index.php:102
+msgid "Get PRO"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:6
+msgid "Use Google Drive files as WordPress media attachment and upload, import, and synchronize between WordPress and Google Drive."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:10
+#: assets/js/settings.js:1
+msgid "Classic Editor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:11
+#: assets/js/settings.js:1
+msgid "Add Google Drive module, embed documents and insert file view links and download links using the Google Drive button on the classic editor."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:15
+#: assets/js/settings.js:1
+msgid "Gutenberg Editor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:16
+#: assets/js/settings.js:1
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Gutenberg editor blocks"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:20
+#: assets/js/settings.js:1
+msgid "Elementor"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:21
+#: assets/js/settings.js:1
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Elementor widgets."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:26
+#: assets/js/settings.js:1
+msgid "Divi"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:27
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Divi Page Builder modules."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:31
+#: assets/js/settings.js:1
+msgid "Advanced Custom Fields"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:32
+#: assets/js/settings.js:1
+msgid "Allows you to select Google Drive files and folders using ACF field and display in theme template file."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:36
+#: assets/js/settings.js:1
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:37
+msgid "You can serve your downloadable product's files directly from Google Drive, and also you can let your customers upload files to your Google Drive account when they purchase your products."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:40
+#: assets/js/settings.js:1
+msgid "Dokan"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:41
+#: assets/js/settings.js:1
+msgid "Allows vendors to serve their Google Drive files as downloadable files and let customer upload files to Google Drive on checkout."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:44
+#: assets/js/settings.js:1
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:45
+#: assets/js/settings.js:1
+msgid "Allows you to serve your Easy Digital Downloads files directly from Google Drive."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:48
+#: assets/js/settings.js:1
+msgid "Tutor LMS"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:49
+#: assets/js/settings.js:1
+msgid "Allows Instructors to link their Google accounts for efficient and independent course material management."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:52
+#: assets/js/settings.js:1
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:53
+#: assets/js/settings.js:1
+msgid "Allows you to upload your files directly to Google Drive from your Contact Form 7 upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:56
+#: assets/js/settings.js:1
+msgid "WPForms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:57
+#: assets/js/settings.js:1
+msgid "Allows you to upload your files directly to Google Drive from your WPForms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:60
+#: assets/js/settings.js:1
+msgid "Gravity Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:61
+#: assets/js/settings.js:1
+msgid "Allows you to upload your files directly to Google Drive from your Gravity Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:64
+#: assets/js/settings.js:1
+msgid "Fluent Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:65
+#: assets/js/settings.js:1
+msgid "Allows you to upload your files directly to Google Drive from your Fluent Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:68
+#: assets/js/settings.js:1
+msgid "Formidable Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:69
+#: assets/js/settings.js:1
+msgid "Allows you to upload your files directly to Google Drive from your Formidable Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:72
+#: assets/js/settings.js:1
+msgid "Ninja Forms"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:73
+msgid "Allows you to upload your files directly to Google Drive from your Ninja Forms upload field."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:77
+#: assets/js/settings.js:1
+msgid "Elementor Form"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:78
+#: assets/js/settings.js:1
+msgid "Allows effortless file uploads from Elementor PRO Form widget to Google Drive for quick and efficient storage."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:81
+#: assets/js/settings.js:1
+msgid "MetForm"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:82
+#: assets/js/settings.js:1
+msgid "Allows effortless file uploads from MetForm to Google Drive for quick and efficient storage."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:93
+msgid "Quick Overview"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:96
+msgid ""
+"Integrate Google Drive is the best and easy to use Google Drive integration plugin for\n"
+"                WordPress to use your Google Drive files and documents into your WordPress website."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:102
+msgid ""
+"Share your Google Drive cloud files into your site very fast and easily. You can browse, manage,\n"
+"                embed, display, upload, download, search, play, share your Google Drive files directly into your\n"
+"                website without any hassle and coding."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:120
+msgid "Never miss a valuable features"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:121
+msgid "Let's explore the awesome features of the plugin"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:128
+msgid "New ⚡"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:131
+msgid "Integrating Google Drive with WordPress Media Library, allows you to use Google Drive files as media attachments directly in WordPress. This integration facilitates easy uploading, importing, and synchronizing of media content between WordPress and Google Drive, streamlining your digital asset management and enhancing your website's media capabilities."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:149
+msgid ""
+"You can manage your cloud files from your website using the full-featured file browser of the\n"
+"                    plugin. Manage preview, download, upload, rename, move, delete, permissions per user using\n"
+"                    the file browser. Users can also browse your cloud files using the File Browser."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:169
+msgid ""
+"You and also your users can upload files directly to your Google Drive account from your\n"
+"                    site. You can upload unlimited size of files."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:187
+msgid ""
+"You can play your Google Drive audio & video files with a playlist into your website. Audio and\n"
+"                video can be played in a single player."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:203
+msgid ""
+"You can add a grid lightbox popup gallery of photos and videos in your page/ post using the gallery\n"
+"                    module of the plugin. The gallery will be generated based on the folders, photos and images that you select."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:217
+msgid "With the Slider Carousel module, you can create a beautiful and interactive slider carousel to showcase your Google Drive images, videos, and documents. Simply use the shortcode to embed the slider anywhere on your site."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:232
+msgid ""
+"You can search any of your cloud files from your site and also let the users to search the\n"
+"                    cloud files to view and download."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:246
+msgid ""
+"You can easily embed any Google Drive Cloud files in any post/ page of your WordPress website\n"
+"                directly using this plugin."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:262
+msgid "File Importer"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:264
+msgid ""
+"Import any Google Drive document and media files to your media library by one click and use\n"
+"                    them on any post/ page."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:276
+msgid "File View & Download Links"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:277
+msgid ""
+"You can insert direct links to your post/ page to download/ view your Google Drive cloud\n"
+"                    files."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:290
+#: assets/js/settings.js:1
+msgid "Private Folders"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:292
+msgid "Using Private Folders you can easily and securely share your Google Drive documents with your users/clients."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:304
+msgid "You can link multiple Google accounts and can use files from the multiple accounts."
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:314
+msgid "Powerful Integrations with Popular Plugins"
+msgstr ""
+
+#: includes/views/getting-started/introduction.php:315
+msgid "Using this plugin, you can integrate your Google Drive with available popular plugins."
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:138
+msgid "Exploring the Latest Updates"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:139
+msgid "Dive Into the Recent Change Logs for Fresh Insights"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:157
+msgid "New Features"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:166
+msgid "Bug Fixes"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:174
+msgid "Improvements"
+msgstr ""
+
+#: includes/views/getting-started/what-new.php:182
+msgid "Removes"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:17
+msgid "%1$s has uploaded the following files to your Google Drive via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:19
+msgid "%1$s has deleted the following files via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the keyword, %3$s is the site link
+#: includes/views/notification-email__premium_only.php:26
+msgid "%1$s has searched for %2$s on the following folders via %3$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:30
+msgid "%1$s has played the following files via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:34
+msgid "%1$s has viewed the following files in your Google Drive via %2$s"
+msgstr ""
+
+#. Translators: %1$s is the username, %2$s is the site link
+#: includes/views/notification-email__premium_only.php:38
+msgid "%1$s has downloaded the following files via %2$s"
+msgstr ""
+
+#: includes/views/notification-email__premium_only.php:63
+msgid "Hi there,"
+msgstr ""
+
+#: includes/views/notification-email__premium_only.php:83
+msgid "File Icon"
+msgstr ""
+
+#: includes/views/notification-email__premium_only.php:102
+msgid "Best Regards,"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:205
+msgid "Hello Admin,"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:209
+msgid "You have a new photo selection from: "
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:224
+msgid "one of your client"
+msgstr ""
+
+#. translators: %s is the shortcode title
+#: includes/views/photo-proof-email__premium_only.php:232
+msgid "for the %s gallery."
+msgstr ""
+
+#. translators: %1$s is the post title
+#: includes/views/photo-proof-email__premium_only.php:249
+msgid "on the %s page."
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:259
+msgid "Client Message:"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:295
+msgid "Download CSV"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:321
+msgid "Image"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:322
+#: assets/js/admin.js:1
+msgid "Title"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:323
+msgid "Link"
+msgstr ""
+
+#: includes/views/photo-proof-email__premium_only.php:345
+msgid "View Image"
+msgstr ""
+
+#. translators: %s is the site name
+#: includes/views/photo-proof-email__premium_only.php:369
+msgid "This email has been generated by Integrate Google Drive plugin at %s"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:182
+msgid "Try out our recommended plugins"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:183
+msgid "Hide From Menu"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:497
+#: assets/js/admin.js:1
+#: assets/js/dokan.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+#: assets/js/tutor.js:1
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/views/recommended-plugins.php:498
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""
+
+#: plugin.php:17
+msgid "You can't access this page"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "Unlock PRO Feature"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "My Drive"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Starred"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Let your users browse the selected specific Google Drive files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Let your users upload files to the specific selected Google Drive folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Play audio and video files in a media player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Let your users search for contents and files via a search box."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display images, videos and documents in a slider carousel."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display images and videos in a masonry grid layout with lightbox preview."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed Google Drive documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Download Links"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert Google Drive files download links."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "View Links"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert Google Drive files view links."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Copied"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode copied to clipboard"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to use this feature."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Are You Enjoying This Plugin?"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Your feedback helps us create a better experience for you."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Yes, I'm enjoying it"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Not really"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "We're glad to hear that!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Would you mind taking a few minutes to rate us and write a review?"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Sure, I'd be happy to"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Maybe later"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Sorry to hear that!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Could you please provide us with some feedback to help us improve?"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Enter your feedback here..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Submit"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Thank you for your feedback!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "We'll use your feedback to improve our plugin."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Error"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Please enter a keyword to search"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter a keyword to search"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+msgid "Search"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Home"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Created"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Modified"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Ascending"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Descending"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "You can not select more than %s files."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "OK"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Approve Selection (%s selected)"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Are you sure you want to approve the selected files?"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter a message to send to the author"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Approve"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Sent!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Your selected images have been sent to the author."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+#: assets/js/statistics.js:1
+msgid "Error!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Send Selection"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Delete"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "You are about to delete the file."
+msgid_plural "You are about to delete %s files."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Yes, delete it!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No, cancel!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/statistics.js:1
+msgid "Deleted!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File has been deleted."
+msgid_plural "%d files have been deleted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Sort"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "SORT BY"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "SORT DIRECTION"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Options"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Switch Account"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to add multiple accounts."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Add account"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Select"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Upload Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File size exceeds the maximum upload size."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File size is less than the minimum upload size."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "This file type is not allowed"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "You can not upload more than"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Uploading Files..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Item(s) Uploading..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Item(s) Selected"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Item(s) Uploaded"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Upload More Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Drag and drop files here"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "OR"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Browse Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Browse Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Min File Size:"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Max File Size:"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Updated!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Description has been updated."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Update Description"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Add Description"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Add a description..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Start Upload"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "There are no items here."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "The folder is empty."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No items available for selection."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "This folder doesn't contain any selectable items."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Ok"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Previous folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No Computers Syncing"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "The files synced with computers will display here."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Shared With Me"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Files and folders others have shared with you."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Nothing is starred"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Adds star to files and folders that you want to find easily later."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No Shared Drives"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "The Drives others have shared with you."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No results found!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "No"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Search results for \"%s\": %s items found."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Clear"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Loading..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Load more"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Owner"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Updated"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Dimension"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Location"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/statistics.js:1
+msgid "Description"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Add description"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Select a file or folder to view its details."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Success"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File(s) moved successfully"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Error moving file(s)"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Moving..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Move"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "No folders found!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File(s) copied successfully"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Error copying file(s)"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Copying %s files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Copy"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Link copied to clipboard"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Copied!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Embed code copied to clipboard."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Copy Link"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Embed"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/private-folders.js:1
+#: assets/js/settings.js:1
+msgid "Email"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Facebook"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "Twitter"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "WhatsApp"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Direct Link"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Share"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Google Doc"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Google Sheet"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Google Slide"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "New Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Create Document"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Preview in a new window"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Preview"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Open in Google Drive"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "View Details"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Deselect All"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Select All"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Edit (New Window)"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Rename"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Grid View"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "List View"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter new folder name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Create"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Please enter a name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Importing %d file"
+msgid_plural "Importing %d files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Please wait..."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+#: assets/js/settings.js:1
+msgid "Imported!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File(s) have been imported."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Upgrade to PRO to import cloud files to the Media Library."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/dokan.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+#: assets/js/tutor.js:1
+msgid "You won't be able to revert this!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/media-library.js:1
+msgid "Select destination"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter new name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Renamed!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "File has been renamed."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Completed!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Download completed"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "New Document"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter document name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "New Spreadsheet"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter spreadsheet name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "New Presentation"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter presentation name"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Document created"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Document created successfully"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Spreadsheet created"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Spreadsheet created successfully"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Presentation created"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Presentation created successfully"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Download as"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+#: assets/js/settings.js:1
+msgid "PRO"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Something went wrong! Please try again later."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Shuffle"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Loop"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Playlist"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enable"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Disable"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Show"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Hide"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Enter a keyword to search in the playlist"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Search for files & content"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Upload successful!"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/frontend.js:1
+msgid "Your file(s) have been uploaded. Thank you for your submission!"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode Preview"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Edit Shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Add New Shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Back"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Delete Shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Save"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Add new shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "All Shortcodes"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Item"
+msgid_plural "Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:1
+msgid "Columns"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Items Per Page"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Sort By"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Date Created"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Sort Order"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Item(s) selected"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Clear Selection"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Duplicate"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You will not be able to recover this shortcode!"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "ID"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Status"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Locations"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode status"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Copy shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode Locations"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "0"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Edit shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Edit"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Tools"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You didn't create any shortcode yet!"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to use this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Don't select any items if you don't want to show the module for the users who are not linked any folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select files & folders for non-linked users"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select Upload Folder for non-linked users"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select image files and folders for non-linked users"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select audio, video files and folders for non-linked users"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select folders for non-linked users."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/media-library.js:1
+msgid "Select Upload Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Turn ON to display the private files and folders linked to the user."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Turn ON to embed the private files and folders linked to the user."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Turn ON to upload the files in the private folder linked to the user."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Turn ON to search the private files and folders linked to the user."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "All Folders & Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If turned ON, users can navigate through all the folders & files of all the linked Google Drive accounts."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Otherwise, to select specific folders & files turn off this option."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "User Private Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Use Private Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Use Private Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "PRO Feature"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to use User Private Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Create Private Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Turn ON to create and link a folder automatically to the user who has not linked any folder yet while the user will view the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Naming template"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable auto private folders creation for the user."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the folder name template for the automatically created private folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Available template tags"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid " (click to insert)"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to enable auto private folders creation."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Parent Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the parent folder where the automatically created private folders will be created."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Template Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Change Template Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Select Template Folder"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Template folder and parent folder must be from the same account."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Template folder and parent folder can't be the same."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the template folder that will be copied to the new private folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Merge Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to create private folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow merging folders if a folder with the same name already exists."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Form Entry Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Create Entry Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to create entry folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Create a folder for each form entry."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Name template"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to create form entry folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the form entry folder name template."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable auto entry folders creation."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also use the form field names to rename the upload folder with the form field values."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "For example: "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If you have a field with the name \"your-name\" and a field with the name \"your-email\", you can use the tags %field_your-name% and %field_your-email% to rename the upload folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also use the form field name attributes to rename the upload folder with the form field values."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If you have a field with the FIELD NAME attribute \"your-name\" and a field with the name attribute \"your-email\", you can use the tags %field_your-name% and %field_your-email% to rename the upload folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also use the form FIELD ID to rename the upload folder with the form field values."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If you have a field with the ID 1, you can use the tag %field_id_1% to rename the upload folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also use the form FIELD KEY  to rename the upload folder with the form field values."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If you have a field with the key \"your-name\" and a field with the key \"your-email\", you can use the tags %field_your-name% and %field_your-email% to rename the upload folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also use the field ID  to rename the upload folder with the form field values."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If you have a field with the id \"name\" and a field with the key \"field_12ca45\", you can use the tags %name% and %field_12ca45% to rename the upload folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow merging folders if a folder with the same name already exists, and upload files into that existing folder instead of creating a new one."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Folder Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to generate download link for the files inside the selected folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to generate view link for the files inside the selected folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Item Selected"
+msgid_plural "Items Selected"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/js/admin.js:1
+msgid "No items selected"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Choose a single upload folder for file uploads."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "To change it, deselect the current folder and select a new one."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If folder is selected, all the files of the folder will be embedded."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed files must be public"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If turned off, files won't show."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If turned off, folders won't show."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allowed Extensions"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter comma ( , ) seperated file extensions to allow, such as \"jpg, png, gif\". Leave empty to %s all extension files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "upload"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "show"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow all : "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Except : "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "When \"Allow all\" is enabled, exceptions will not be %s."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "uploaded"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "displayed"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allowed Names"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter file and folder names, separated by commas, to display. Leave blank to display all files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "When \"Allow all\" is enabled, exceptions will not be displayed."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can use the * and ? wildcards to match multiple characters and single characters respectively."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "For example:"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "will match all files that start with report and have the .txt extension."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "will match all files that start with file like \"file1\", \"file2\", and all files that start with image_."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Apply to : "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the type of files to apply the name filters."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Maximum File Numbers"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the maximum number of how many files you want to show. Leave empty to show all files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Max File Uploads"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the max number of files to upload at once. Leave empty for no limit."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Min File Uploads"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the minimum number of files to upload. Leave empty for no limit."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Max File Size (MB)"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the maximum upload file size (MB)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Min File Size (MB)"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the minimum upload file size (MB)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Overlay"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show the image overlay."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display Type"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Always"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "On Hover"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the image overlay display type."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Title"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show the image title in the overlay."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Description"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show the image description in the overlay."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Size"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show the image size in the overlay."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Created Date"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Modified Date"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Random"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Module Container"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Container Width"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Container Height"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the module container width and height. You can use any valid CSS unit (pixels, percentage), eg '360px', '780px', '80%'. Keep blank for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed Iframe Width"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set embed iframe width. You can use any valid CSS unit (pixels, percentage), eg '360px', '780px', '100%'. Keep blank for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed Iframe Height"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set embed iframe height. You can use any valid CSS unit (pixels, percentage), eg '360px', '780px', '100%'. Keep blank for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show File Name"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the file name at the top of the file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Direct Media Display"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to display Audio, Video and Images directly without embed."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display Audio, Video and Image files directly without embedding them into an iframe."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Occasionally, audio and video files may not play correctly within an embedded player. Enable this option to resolve the issue by displaying media files directly, bypassing the embed."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed Type"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to change the embed type."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Read Only"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Editable"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Full Editable"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the embed type for the selected documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The document will be displayed in a read-only mode."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The document will be displayed in an editable mode. Users will be able to edit the document."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The document will be displayed in an editable mode with extended edit tool-bars and features."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Note:"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The editable mode is only available for the editable Google Docs & Office Docs."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow Pop-out"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "In the embed document view (e.g. a pdf) there is a pop-out button that when clicked will bring the user to the Google Drive view of the document, with full features to download, print, etc. "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "If the pop-out option is disabled, users will be able to view the embedded document only on your website and not on Google Drive."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Layout"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to change the gallery layout."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the layout for the gallery."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to change the gallery column."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the number of columns to display on each device."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Row Height"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The ideal height you want your grid rows to be. It won't set it exactly to this as plugin adjusts the row height to get the correct width. Leave empty for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Aspect Ratio"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the aspect ratio for the gallery items."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Margin"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The margin between each image in the gallery. Leave empty for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Image Thumbnail Size"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Small - 300x300"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Medium - 600x400"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Large - 1024x768"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Full"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Custom"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the thumbnail size for the gallery images."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Custom Size"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Width"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Height"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the custom thumbnail size width and height for the gallery images."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Thumbnail View"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Rounded"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Square"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the image thumbnail view style for the gallery."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Folder View"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Thumbnail"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the folders view style for the gallery."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Browser View"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Grid"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "List"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the file browser view."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Last Modified Field"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the file last modified date field in the list view."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Search Box Text"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the search box text."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Enable Files Lazy load"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable files lazy load to avoid loading all files at once."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Files Loading Type"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Pagination"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Load More Button"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Scroll"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files loading type for the lazy load."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Loads more files as the user scrolls to the bottom."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Navigate through files using page numbers."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Load files with a button click."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Number of Files to Load"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Set the number of files to load on each lazy load."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Header"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the file browser header."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Breadcrumbs Navigation"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the breadcrumbs folder navigation in the header."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Refresh Button"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the refresh (sync) button in the header."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Sorting Button"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the files sorting options button in the header"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow Embed Player"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable embed player for the large video files using Google Drive native player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Next & Previous"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/hide the next & previous buttons in the player. Enables navigation between media items in the playlist."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Rewind & Forward"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/hide the rewind & forward buttons in the player. Allows users to quickly skip backward or forward in the video."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Playlist"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/hide the playlist in the player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Opened Playlist"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Should be the playlist opened by default."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Playlist Autoplay"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Start playing next item automatically in the playlist once the current item is ended."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Thumbnail"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/hide the thumbnail in the playlist."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Number Prefix"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/hide the numeric prefix in the playlist items."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Playlist Position"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Left"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Right"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Bottom"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the playlist position in the player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Overwrite Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to overwrite files with the same name."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable Folder Upload"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to upload folders. A folder upload button will be added."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upload Immediately"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Start uploading files immediately after they are selected."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Note: "
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "For multi-step forms, must be enabled this option to proceed to the next step."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Upload Confirmation"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the upload confirmation message after upload is complete."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Confirmation Message"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the upload confirmation message."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Upload Label Text"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the upload files label text in the uploader box."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Label Text"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the uploader label text."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "File Rename"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Rename the uploaded file by adding suffix or prefix. You can use the available tags to rename the file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Available tags"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Open in new tab"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Open a new tab for viewing the file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Slide Height"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the height of the carousel slide. You can use any valid CSS unit (pixels, percentage), eg '360px', '780px', '80%'. Keep blank for default value."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Image Size"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the thumbnail size for the slider images."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the custom thumbnail size width and height for the slider images."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Slides per Page"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the number of slides per page for each device."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Mobile: < 576px, Tablet: ≥ 576px, Laptop: ≥ 768px, Desktop: ≥ 992px, Large Desktop: ≥ 1200px"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Gap"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the gap between slides in pixels."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Slide Autoplay"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable autoplay for the slider."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Autoplay Speed"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the autoplay speed in milliseconds."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Slide Dots Navigation"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable dots navigation for the slider."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Slide Arrows Navigation"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable arrows navigation for the slider."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable Redirection"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to redirect the user directly to the Google Drive file instead of downloading the file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Add User Permission"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to add permission for the purchase email address to the file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The purchase email address must be a gmail address. Otherwise the permission will not be added."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Sorting"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select file sorting and direction."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable Notifications"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable email notificationenableN"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable email notifications to get notified on various user activities (upload, download, delete, etc)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Download Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable email notifications."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notification whenever files is downloaded through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upload Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable email notification."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive an email notifications whenever someone uploaded files through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Delete Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notifications whenever someone deleted files through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Media Play Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notifications whenever someone play audio/video files through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Search Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notifications whenever someone search for files through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "View Notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notifications whenever someone view files through this module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Notification Recipients"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the email address where the notifications will be sent. Add multiple email addresses by separating them with a comma (,)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also set the below placeholder tags as email recipient."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The email of site admin."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The email of current user who executes the action."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The email of the owner of the private folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Skip current user notification"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enable to skip the notification for the user that executes the action."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the users and roles who can access."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Everyone"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "File Manipulation"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to upload files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can upload files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to preview files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Inline Preview"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Open preview in a pop-up lightbox. If disabled, the preview will be opened in Google Drive."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Pop-out button allows the user to view the document on Google Drive with full features, while disabling it will only show the preview document on your website."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can preview files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Photo Proofing"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to photo proofing"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to select images and send them to the admin."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Maximum Selection"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to PRO to enable photo proofing"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the maximum number of images that can be selected. Leave empty for no limit."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Notification Email"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to enable photo proofing"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the email address where the selected images notification will be sent."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can select."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to download files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Folder Download"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to enable folder download."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to download entire folders as a ZIP file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Multiple Download"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to enable multiple files download."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to download multiple files as a ZIP file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "The Google Drive API does not support ZIP creation on the fly. Therefore, the ZIP file needs to be created (temporarily) on your server. For that reason, it is not recommended to enable this setting when you are working with large files or folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show File Size Field"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide the file size field in the file list."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can download files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to delete files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can delete files & folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to create new folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can create folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Move/ Copy"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to move/ copy files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can move/ copy files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to rename files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can rename files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Create Documents"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to create Google Docs and Office documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can create documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Edit Documents"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to edit Google Docs and Office documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can edit documents."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow Share"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to share files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can share files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to generate direct links for files on your website."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to view file details (owner, created & modified date, etc)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who view the file details."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow Comments"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to enable comments"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to comment on files while they view the file in lightbox preview."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Comment Method"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Disqus"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the comment method you want to use."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can comments on files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "View Switching"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to switch between grid and list view of the file listing."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow Search"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Upgrade to Pro to enable search"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow users to search for files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Full-text Search"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Allow to search in file content, descriptions, tags and other metadata."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Initial Search Term"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set initial search terms if you want to start a search when the shortcode is rendered. Please note that this only affects the initial render."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "You can also set dynamic placeholder tags to the initial search term."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select users & roles who can search for files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Visibility"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display for"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Logged In"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select who can see the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Filter users & roles"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the users and user roles who can see the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Everyone :"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Except"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "When activated, the module will be visible to everyone except for those specifically exempted."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show Access Denied Message"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show a message to users who don't have access to the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Access Denied Message"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Enter the message you want to show to users who don't have access to the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Types"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Source"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/statistics.js:1
+msgid "Filter"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Advanced"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Notifications"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Permissions"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Module Type"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the module type that you want to use."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select Folders and Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the folders & files to display in the file browser."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the folder where the files will be uploaded."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select Files and Folders"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files and folders to display in the gallery."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the folders and audio/ video files to display and play in the media player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the folders to search in."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/private-folders.js:1
+msgid "Select Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files to embed. You can also select folders to embed all the files of the folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files to insert the download link. You can also select folders to insert the download link to download all the files of the folder in a zip file."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files and folders to insert the link to view the file in Google Drive."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files to attach in the course."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the files to attach in the product for download."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Filter Folders and Files"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide files and folders and filter them by extensions and names to not display in the file browser."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Filter the files to upload by extensions"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide files and folders and filter them by extensions and names to not display in the gallery."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide files and filter them by extensions and names to not display in the slider."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide files and folders and filter them by extensions and names to not display in the media player."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Show/ hide files and folders and filter them by extensions and names to not display in the search results."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Advanced Options"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Advanced options to customize the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Email Notifications"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Receive email notifications for various user activities (upload, download, delete, etc)."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Set the permissions to access the module."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Previous step"
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/settings.js:1
+msgid "Save Changes"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Next step"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Finish"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Next"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode Title"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode has been updated."
+msgstr ""
+
+#: assets/js/admin.js:1
+#: assets/js/statistics.js:1
+msgid "Something went wrong."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Add New Shortcode - Integrate Google Drive"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "All Shortcodes - Integrate Google Drive"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode has been deleted"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Duplicated!"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Shortcode has been duplicated."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select Video"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Done"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert pre-built module's shortcode."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert a file browser to browse specific Google Drive files and folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert a gallery to display specific Google Drive photos and videos with a lightbox preview."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert a file uploader to upload files to a specific Google Drive folder."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert a media player to play specific Google Drive Audio and Video files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert a search box to search files and folders in specific Google Drive folders."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Display Images, Videos, and Documents in a slider carousel."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Embed documents to your page/ post."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert links to download Google Drive files."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert links to view the files in Google Drive."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select Insert Type"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the insert type that you want to insert into you post or page."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid " is available in the Pro version."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select shortcode"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Select the already created module shortcode to insert into the post."
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert Module"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert Module Shortcodes"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Insert File Browser"
+msgstr ""
+
+#: assets/js/admin.js:1
+msgid "Please, copy the following text and paste it into the \"Shortcode Data\" form editor field."
+msgstr ""
+
+#: assets/js/dokan.js:1
+#: assets/js/settings.js:1
+#: assets/js/tutor.js:1
+msgid "Yes, remove it!"
+msgstr ""
+
+#: assets/js/dokan.js:1
+#: assets/js/settings.js:1
+#: assets/js/tutor.js:1
+msgid "Removed!"
+msgstr ""
+
+#: assets/js/dokan.js:1
+#: assets/js/settings.js:1
+#: assets/js/tutor.js:1
+msgid "Account has been removed."
+msgstr ""
+
+#: assets/js/elementor.js:1
+#: assets/js/statistics.js:1
+msgid "GET PRO"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "File uploaded successfully!"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Something went wrong!"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Uploading..."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Please wait import is in progress."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "The file has been imported."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "There was an error importing the file."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Select Replacement"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "File Replaced"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "The file has been replaced with the selected Google Drive file."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "There was an error replacing the file."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "File type mismatch"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "The selected file type must match the type of the file you are replacing."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "File Restored"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "File has been restored to the original media library attachment."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Replace with Google Drive"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Restore Original"
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "You didn't select any folders yet."
+msgstr ""
+
+#: assets/js/media-library.js:1
+msgid "Please select the folders that you want to use in the media library."
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Link specific files & folders to the users"
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Unlock PRO"
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Search Users"
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Role"
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Private Files"
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "User files have been updated successfully."
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "With Private Folders, securely share Google Drive documents with users/clients for viewing, downloading, and managing in their private folders. Upgrade to PRO for user-specific private folders."
+msgstr ""
+
+#: assets/js/private-folders.js:1
+msgid "Upgrade to PRO to use the private folders for users."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Google Accounts"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Remove account"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Server error. Please try again."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "You didn't link any Google account."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Link a Google account to continue."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Multiple Accounts - PRO"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "See what happens with your data when you authorize?"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Requested scopes and justification"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid ""
+"In order to display your Google Drive cloud files, you have to authorize it with your Google account.\n"
+"\n"
+"                            The authorization will ask you to grant the application the https://www.googleapis.com/auth/drive scope.\n"
+"\n"
+"                            The scope is needed to allow the plugin to see, edit, create, and delete all of your Google\n"
+"                            Drive files and files that are shared with you."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Information about the data"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid ""
+"The authorization tokens will be stored, encrypted, on your server and is not accessible by any third party.\n"
+"                            When you use the Application, all communications are strictly between your server and the\n"
+"                            cloud storage service servers. We do not collect and do not have access to your personal\n"
+"                            data."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Advanced Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Remember Last Opened Folder"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable this to load the last opened folder when a visitor revisit a File Browser or Gallery module."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Google Workspace Domain"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "If you are using Google Workspace  and you want to share your documents ONLY with users having an account in your Google Workspace Domain, please insert your domain."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "To make your documents accessible to the public, please leave this field blank."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Manage Sharing Permissions"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "By default, the plugin will manage the sharing permissions of the documents. If you want to manage the sharing permissions manually, please disable this option."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Link Own Google App"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to use your own Google App."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Use your own Google app API instead of using the plugin default app API."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Using your own Google App is an optional option. For an easy setup you can just use the default App of the plugin itself. The advantage of using your own app is limited. If you decided to create your own Google App anyway, please enter your app Client ID & Secret key in the below settings."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "App Client ID"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Insert you app client ID."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "App Secret Key"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Insert you app secret key."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Redirect URI"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Copied to clipboard."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Copy the above redirect URI and set to your own google app."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Delete Data on Uninstall"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Delete the plugin data (settings, cache, accounts) on the uninstallation."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Auto Synchronization"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable Auto Synchronization"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to enable auto synchronization."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable/ disable the local cache file auto synchronization with the cloud files."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Synchronization Interval"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the automatic cloud files synchronization interval."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Custom Sync Interval"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enter the custom synchronization interval in seconds (min: 60 seconds)."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "e.g: 3600 = 1 hour, 1800 = 30 minutes."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Synchronization Type"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "All Folders"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Specific Selected Folders"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the synchronization type."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "All the cached folders will be synchronized with the cloud."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Specific Folders"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Syncs only chosen folders with the cloud, helpful for large sets of folders when only a few need synchronization."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the folders to be synchronized with the cloud files."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Integrate Google Drive with WordPress Media Library."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Add Google Drive modules, embed documents and insert file view links and download links using the Google Drive Divi page builder modules."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Allows you to serve your Google Drive files as downloadable files and let customer upload files to Google Drive on checkout."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Allows effortless file uploads from Ninja Forms to Google Drive for quick and efficient storage."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Share Link"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Embed Code"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Plugins Integrations"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the plugins you want to integrate with Integrate Google Drive."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable All"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Disable All"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Available in PRO"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "File sharing channels"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the sharing channels you want to show for the users in the file sharing modal."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Statistics Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable Statistics"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to enable the statistics."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable/ disable the statistics logs."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Email Reporting"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable / disable the statistics email reporting."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Email Report Frequency"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the email report frequency."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Email Report Recipients"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enter the recipients email addresses separated by comma."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "All"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Create Folder on Registration"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to enable auto private folders creation on user registration."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable/ disable automatic private folders."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "If ON, a new private folder will be created for the new registered users."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Filter User Roles"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the user roles for which the private folders will be created."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Set the folder name template for the automatically created private folders. and use the below tags to customize the folder name."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the parent folder for the newly created private folders. All the private folders will be created within the selected parent folder."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the template folder for the newly created private folders. All the files and folders within the template folder will be copied to the newly created private folders for the users."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Delete private folders"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "If ON, Delete the linked private folders on account delete."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable the merging of folders when a folder with a same name already exists, rather than creating a new folder."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Private Folders in Admin Dashboard"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to allow private folders in admin dashboard."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Allow users to access the linked private folders in admin dashboard file browser."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Atom"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Bar Chart"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Spinner"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Bars"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Bricks"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Blocks"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Color Bar"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clock"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Dash Ring"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Ripple"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Progress"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Flip Ball"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Hourglass"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Infinity"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Dual Ring"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Fidget Spinner"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Gear"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Gears"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Appearance Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Preloader"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Choose the preloader style for the file browser. Preloader will be displayed in the file browser while the files are loading."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Default"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to use this preloader."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Custom Preloader Image"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select Preloader"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to use custom preloader."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upload Image"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the lazy load files loading type in the admin file browser."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Primary Color"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to change the file browser primary color."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Choose the primary color for the file browser. The color will affects both on admin and frontend file browser module."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Custom CSS"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "To customize the plugin's styles, insert your custom CSS here."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enter your custom CSS here..."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Data imported successfully."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "An error occurred while importing data."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Auto-save Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable to automatically save the settings after each change."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear Cached Files"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear all the cached files!"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear cache"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Cache Cleared!"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Cached files are deleted and synchronized with the cloud files."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear cached files and synchronize the cloud files."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Export Data"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Shortcode Modules"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Statistics Logs"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Export All (Settings, Shortcode Modules, User Private Files, Statistics Logs)"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the data you want to export."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Exporting..."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Export"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Export the selected data to a JSON file."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Importing..."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the exported JSON file you would like to import. Please note that the import will replace the current data"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Reset Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "We recommend you to export your current settings before resetting them."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Reset"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Reset all settings to default."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "User Access Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "File Browser Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select which roles & users can access the admin dashboard file browser."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select folders for "
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to select specific folders for users."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select specific folders that will be accessible to "
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Shortcode Builder Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select which roles & users can create & edit shortcode modules."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Roles & Users can only access the folders that they have assigned in the "
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid " Access Backend File Browser "
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid " settings above."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "User Private Files Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select which roles & users can manually link private files & folders to users."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Settings Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select which roles & users can change the plugin settings."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Statistics Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the users & roles to allow access to the statistics page."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Getting Started Page"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the users & roles to allow viewing the getting started page."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable Downloads"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Pro Feature"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to the Pro version to enable WooCommerce downloads."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable to add Google Drive files to WooCommerce downloadable products."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable Uploads"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to the Pro version to enable WooCommerce uploads."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable/ disable customer file uploads for WooCommerce products."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the locations where you want to show the upload box in woocommerce products."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Show upload box when order status is"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the order statuses when you want to show the upload box"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "This option will only work on the Order Received and My Account page."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Folder Naming template"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Set the upload folder naming template when a customer uploads a file a new folder will be created with this name."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the parent folder where the new folders will be created with the uploaded files for each product."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Dokan Multi-vendor Settings"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to the Pro version to enable Dokan downloads."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable to allow vendors to use their Google Drive files as downloadable products."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to the Pro version to enable Dokan uploads."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable to allow vendors to let customers upload files to their Google Drive."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable Media Library Integration"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to the Pro version to enable Dokan Media Library Integration."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Allow vendors to connect their Google Drive to the WordPress media library, enabling them to use Google Drive files like images and downloads directly in their products."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Upgrade to PRO to enable Media Library integration."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the folders you want to use in the media library."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "User Access"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Select the users and roles who can access the Google Drive folders in the media library."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Remove Google Drive Attachments"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear all the Google Drive attachments!"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Clear attachments"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Attachments Cleared!"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Google Drive attachments are deleted from the media library."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Remove all Google Drive attachments currently integrated into your media library."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Delete Cloud Files on Attachment Delete"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Enable to delete linked Google Drive files, when any integrated Google Drive attachment is deleted from the media library page."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Accounts"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Appearance"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Integrations"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Synchronization"
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Settings saved successfully."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "An error occurred while saving the settings."
+msgstr ""
+
+#: assets/js/settings.js:1
+msgid "Saving..."
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Events Chart / Day"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Total"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "No data found"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Users with most Downloads"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "User"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "No data found!"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Users with most Uploads"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Uploads"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Users with most Streams"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "All Event Logs"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "downloaded the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "uploaded the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "streamed the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "deleted the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "copied the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "moved the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "renamed the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "created the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "shared the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "updated description of the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "searched for"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "created a new folder"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "previewed the file"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "From"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "To"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Export Statistics"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "All statistics data has been deleted."
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Clear Statistics"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Users with most Previews"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Searches"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Query"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Top Users with most Searches"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: assets/js/statistics.js:1
+msgid "Upgrade to Pro to access the statistics."
+msgstr ""
+
+#: assets/js/tutor.js:1
+msgid "Size:"
+msgstr ""

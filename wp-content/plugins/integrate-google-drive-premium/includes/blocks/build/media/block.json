@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/media",
+  "version": "1.0.0",
+  "title": "Media Player",
+  "category": "igd-category",
+  "icon": "format-video",
+  "description": "Insert a media player to play specific Google Drive Audio and Video files.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "media",
+        "folders": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": 1000,
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "auto",
+        "view": "grid",
+        "maxFileSize": "",
+        "uploaderStyle": "simple",
+        "openNewTab": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "media player",
+    "player",
+    "media",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/slider",
+  "version": "1.0.0",
+  "title": "Slider Carousel",
+  "category": "igd-category",
+  "icon": "slides",
+  "description": "Insert a slider carousel to display Google Drive photos, videos, and documents.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "slider",
+        "folders": [],
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "",
+        "slideName": true,
+        "slideDescription": false,
+        "slideHeight": "300px",
+        "slidesToShow": 3,
+        "slideAutoplay": true,
+        "slideAutoplaySpeed": 3000,
+        "slideDots": true,
+        "slideArrows": true,
+        "download": true,
+        "preview": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "slider",
+    "carousel",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

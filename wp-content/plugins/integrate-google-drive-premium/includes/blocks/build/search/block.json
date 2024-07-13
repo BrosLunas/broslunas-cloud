@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/search",
+  "version": "1.0.0",
+  "title": "File Search",
+  "category": "igd-category",
+  "icon": "search",
+  "description": "Insert a search box to search files and folders in specific Google Drive folders",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "search",
+        "folders": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": 1000,
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "auto",
+        "view": "grid",
+        "maxFileSize": "",
+        "uploaderStyle": "simple",
+        "openNewTab": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "file search",
+    "search",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

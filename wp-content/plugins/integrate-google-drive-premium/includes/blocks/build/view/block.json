@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/view",
+  "version": "1.0.0",
+  "title": "Insert View Links",
+  "category": "igd-category",
+  "icon": "admin-links",
+  "description": "Insert links to view the files in Google Drive",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "view",
+        "folders": [],
+        "showFiles": true,
+        "showFolders": true,
+        "fileNumbers": -1,
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "auto",
+        "view": "grid",
+        "maxFileSize": "",
+        "uploaderStyle": "simple",
+        "openNewTab": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "view links",
+    "link",
+    "view",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/shortcodes",
+  "version": "1.0.0",
+  "title": "Module Shortcodes",
+  "category": "igd-category",
+  "icon": "shortcode",
+  "description": "Insert pre-built module's shortcode",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "id": {
+      "type": "number",
+      "default": 0
+    }
+  },
+  "keywords": [
+    "google drive",
+    "drive",
+    "shortcode",
+    "module",
+    "cloud",
+    "shortcode"
+  ],
+  "textdomain": "igd",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}

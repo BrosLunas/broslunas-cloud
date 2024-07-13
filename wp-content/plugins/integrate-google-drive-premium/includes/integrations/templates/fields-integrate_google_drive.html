@@ -1,0 +1,62 @@
+<script id="tmpl-nf-field-integrate_google_drive" type="text/template">
+    <#
+
+    let shortcodeData = {
+        id: data.id,
+        type: 'uploader',
+        isFormUploader: 'ninjaforms',
+        isRequired: data.required,
+        minFiles: 0,
+        nonce: window?.igd_shortcode_nonce,
+    };
+
+    try {
+        shortcodeData = _.extend(shortcodeData, JSON.parse(data.igd_data));
+
+    shortcodeData.filters = {
+        allowExtensions: shortcodeData.allowExtensions,
+        allowAllExtensions: shortcodeData.allowAllExtensions,
+        allowExceptExtensions: shortcodeData.allowExceptExtensions,
+    }
+
+    shortcodeData.filters = _.omit(shortcodeData.filters, _.isUndefined);
+
+    shortcodeData.notifications = {
+        uploadNotification: shortcodeData.notificationEmail,
+        notificationEmail: shortcodeData.notificationEmail,
+        skipCurrentUserNotification: shortcodeData.skipCurrentUserNotification,
+    }
+
+    shortcodeData.notifications = _.omit(shortcodeData.notifications, _.isUndefined);
+
+    } catch (e) {
+        console.error('Failed to parse JSON:', e);
+    }
+
+    const { width = '100%', height = '' } = shortcodeData;
+
+    #>
+
+    <div class="igd igd-shortcode-wrap igd-shortcode-uploader" style="max-width: {{{ width }}}; max-height: {{{ height }}};" data-shortcode-data='{{{ btoa(encodeURIComponent(JSON.stringify(shortcodeData)).replace(/%([0-9A-F]{2})/g,
+        function toSolidBytes(match, p1) {
+            return String.fromCharCode('0x' + p1);
+    })) }}}'></div>
+
+    <input
+            id="nf-field-{{{ data.id }}}"
+            name="nf-field-{{{ data.id }}}"
+            aria-describedby="nf-error-{{{ data.id }}}"
+            class="{{{ data.renderClasses() }}} nf-element upload-file-list igd-hidden"
+            type="text"
+            value="{{{ data.value }}}"
+            aria-labelledby="nf-label-field-{{{ data.id }}}"
+            data-field-id="{{{ data.id }}}"
+            data-min-files="{{{ shortcodeData.minFiles }}}"
+            {{{ data.maybeRequired() }}}
+    >
+
+    <# setTimeout(function () {
+    initShortcode();
+    }); #>
+
+</script>

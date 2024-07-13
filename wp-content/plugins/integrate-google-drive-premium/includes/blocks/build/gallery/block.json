@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json.schemastore.org/block.json",
+  "apiVersion": 2,
+  "name": "igd/gallery",
+  "version": "1.0.0",
+  "title": "Gallery",
+  "category": "igd-category",
+  "icon": "format-gallery",
+  "description": "Insert a masonry grid gallery with lightbox preview to display Google Drive images and videos.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "isInit": {
+      "type": "boolean",
+      "default": true
+    },
+    "isEdit": {
+      "type": "boolean",
+      "default": true
+    },
+    "data": {
+      "type": "object",
+      "default": {
+        "status": "on",
+        "type": "gallery",
+        "folders": [],
+        "showFiles": true,
+        "showFolders": true,
+        "sort": {
+          "sortBy": "name",
+          "sortDirection": "asc"
+        },
+        "width": "100%",
+        "height": "auto",
+        "view": "grid",
+        "lazyLoad": true,
+        "lazyLoadNumber": 100,
+        "maxFileSize": "",
+        "galleryStyle": "simple",
+        "openNewTab": true,
+        "download": true,
+        "displayFor": "everyone",
+        "displayUsers": [
+          "everyone"
+        ],
+        "displayExcept": []
+      }
+    }
+  },
+  "keywords": [
+    "photo gallery",
+    "gallery",
+    "google",
+    "drive",
+    "integrate google drive"
+  ],
+  "textdomain": "integrate-google-drive",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css"
+}
